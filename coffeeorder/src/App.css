@@ -1,0 +1,59 @@
+body{
+  background-image: url(coffee.png);
+  background-size: cover;
+  font-family: 'Arvo', serif;
+
+}
+.order{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 25%;
+  top: 10%;
+  width: 50%;
+}
+h1{
+  color:#ffcc66;
+  text-align: center;
+}
+#emailTextBox{
+  width: 80%;
+  height: 30px;
+}
+#coffee-types{
+  margin-top: 5%;
+}
+#flavor-types{
+  margin-top: 5%;
+}
+#size{
+  margin-top: 5%;
+}
+#strength-levels{
+  margin-top: 5%;
+}
+label{
+  color: #fff7e6;
+}
+#submit{
+background-color: #ffcc66;
+margin-top: 5%;
+width: 20%;
+position: absolute;
+right: 15%;
+bottom: -25%;
+border-radius: 5%;
+box-shadow: 2px 2px 2px 0px rgb(255, 247, 230);
+font-size:15px;
+}
+.back{
+  background-color: #ffcc66;
+  margin-top: 5%;
+  width: 20%;
+  position: absolute;
+  right: 38%;
+  bottom: -25%;
+  border-radius: 5%;
+  box-shadow: 2px 2px 2px 0px rgb(255, 247, 230);
+  font-size:15px;
+}
